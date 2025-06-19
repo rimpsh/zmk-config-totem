@@ -38,7 +38,7 @@
                         &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                         &mt LGUI A  &mt LALT S  &mt LCTRL D &mt LSHFT F &kp G           &kp H       &mt RSHFT J &mt RCTRL K &mt RALT L  &mt RGUI SEMI
       &lt MED ESC       &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp SQT
-                                               &kp LGUI &lt NAV SPACE &lt SYM RET       &kp TAB &lt NUM BSPC &lt FUN DEL
+                                                   &kp LGUI &lt NAV SPACE &kp RET       &lt SYM TAB &lt NUM BSPC &lt FUN DEL
         >;
       };
 
@@ -51,7 +51,7 @@
         // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
         // ┃           ┃           ┃           ┃           ┃           ┃           ┃   ┃ INSERT    ┃ PG DOWN   ┃ PG UP     ┃ HOME      ┃ END       ┃           ┃
         // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-        //                                     ┃           ┃   🁢🁢🁢  ┃           ┃   ┃ ENTER     ┃ BSPC      ┃ DEL       ┃
+        //                                     ┃           ┃   🁢🁢🁢  ┃           ┃   ┃ TAB       ┃ BSPC      ┃ DEL       ┃
         //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
         bindings = <
         // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
@@ -59,7 +59,7 @@
                         &none       &none       &none       &none       &none           &kp LS(LG(Z)) &kp LG(V) &kp LG(C)   &kp LG(X)   &kp LG(Z)
                         &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &none           &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &caps_word
             &none       &none       &none       &none       &none       &none           &kp INS     &kp PG_DN   &kp PG_UP   &kp HOME    &kp END     &none
-                                                &none       &none       &none           &kp RET     &kp BSPC    &kp DEL
+                                                &none       &none       &none           &kp TAB     &kp BSPC    &kp DEL
         >;
       };
 
@@ -135,7 +135,7 @@
         // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
         // ┃           ┃ F10       ┃ F1        ┃ F2        ┃ F3        ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃           ┃
         // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-        //                                     ┃           ┃ SPACE     ┃ TAB       ┃   ┃           ┃           ┃   🁢🁢🁢  ┃
+        //                                     ┃           ┃ SPACE     ┃ ENTER     ┃   ┃           ┃           ┃   🁢🁢🁢  ┃
         //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
         bindings = <
         // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
@@ -143,7 +143,7 @@
                         &kp F12     &kp F7      &kp F8      &kp F9      &kp PSCRN       &none       &none       &none       &none       &none
                         &kp F11     &kp F4      &kp F5      &kp F6      &to BUT         &none       &kp RSHFT   &kp RCTRL   &kp RALT    &kp RGUI
             &trans      &kp F10     &kp F1      &kp F2      &kp F3      &none           &none       &none       &none       &none       &none       &none
-                                                &trans      &kp SPACE   &kp TAB         &none       &none       &none
+                                                &trans      &kp SPACE   &kp RET         &none       &none       &none
         >;
       };
 
